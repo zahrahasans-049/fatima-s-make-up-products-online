@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <html>
+        <head>
+            <style>
+                body{
+                    font-family: 'Times New Roman', Times, serif;
+                    margin: 1;
+                    padding: 1;
+                    background-image: url('http://4.bp.blogspot.com/-xSZWi7i6pdE/TgTIzuILX1I/AAAAAAAAAEA/FfUkGFr7Hwk/s1600/cos.jpg');background-size: cover;
+                }
+                header {
+                    padding: 10px 10px;
+                }
+                .navbar{
+                    border: black;
+                    background-color: bisque;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    font-style: oblique;
+                    font-display: black;
+                    list-style-type: none;
+                    padding: 1;
+                    display: flex;
+                    gap:15px;
+                }
+                .navbar li{
+                    display:inline;
+                }
+                .navbar a{
+                    text-decoration: double;
+                }
+                form{
+                    display: ruby-base-container;
+                    flex-direction:column-reverse;
+                    gap: 25 px;
+                    max-width: 300px;
+                    margin-top: 25;
+                }
+                button{
+                    background-color: rgb(206, 240, 132);
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <h1>CONTACT US</h1>
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="home page.html">Home Page</a></li>
+                        <li><a href="About us.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="3" required></textarea>
+                    <button type="submit">submit</button>
+                </form>
+            </main>
+        </body>
+    </html>
+    
+</body>
+</html>
